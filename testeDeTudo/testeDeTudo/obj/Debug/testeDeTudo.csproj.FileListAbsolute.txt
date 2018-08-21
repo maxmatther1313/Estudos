@@ -1,0 +1,10 @@
+C:\Users\V013\source\repos\testeDeTudo\testeDeTudo\bin\Debug\testeDeTudo.exe.config
+C:\Users\V013\source\repos\testeDeTudo\testeDeTudo\bin\Debug\testeDeTudo.exe
+C:\Users\V013\source\repos\testeDeTudo\testeDeTudo\bin\Debug\testeDeTudo.pdb
+C:\Users\V013\source\repos\testeDeTudo\testeDeTudo\obj\Debug\testeDeTudo.csprojAssemblyReference.cache
+C:\Users\V013\source\repos\testeDeTudo\testeDeTudo\obj\Debug\testeDeTudo.Form1.resources
+C:\Users\V013\source\repos\testeDeTudo\testeDeTudo\obj\Debug\testeDeTudo.Properties.Resources.resources
+C:\Users\V013\source\repos\testeDeTudo\testeDeTudo\obj\Debug\testeDeTudo.csproj.GenerateResource.cache
+C:\Users\V013\source\repos\testeDeTudo\testeDeTudo\obj\Debug\testeDeTudo.csproj.CoreCompileInputs.cache
+C:\Users\V013\source\repos\testeDeTudo\testeDeTudo\obj\Debug\testeDeTudo.exe
+C:\Users\V013\source\repos\testeDeTudo\testeDeTudo\obj\Debug\testeDeTudo.pdb

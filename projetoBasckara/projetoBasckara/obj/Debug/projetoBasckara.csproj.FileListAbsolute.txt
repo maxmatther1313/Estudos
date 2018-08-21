@@ -1,0 +1,10 @@
+C:\Users\V013\source\repos\projetoBasckara\projetoBasckara\bin\Debug\projetoBasckara.exe.config
+C:\Users\V013\source\repos\projetoBasckara\projetoBasckara\bin\Debug\projetoBasckara.exe
+C:\Users\V013\source\repos\projetoBasckara\projetoBasckara\bin\Debug\projetoBasckara.pdb
+C:\Users\V013\source\repos\projetoBasckara\projetoBasckara\obj\Debug\projetoBasckara.csprojAssemblyReference.cache
+C:\Users\V013\source\repos\projetoBasckara\projetoBasckara\obj\Debug\projetoBasckara.Form1.resources
+C:\Users\V013\source\repos\projetoBasckara\projetoBasckara\obj\Debug\projetoBasckara.Properties.Resources.resources
+C:\Users\V013\source\repos\projetoBasckara\projetoBasckara\obj\Debug\projetoBasckara.csproj.GenerateResource.cache
+C:\Users\V013\source\repos\projetoBasckara\projetoBasckara\obj\Debug\projetoBasckara.csproj.CoreCompileInputs.cache
+C:\Users\V013\source\repos\projetoBasckara\projetoBasckara\obj\Debug\projetoBasckara.exe
+C:\Users\V013\source\repos\projetoBasckara\projetoBasckara\obj\Debug\projetoBasckara.pdb

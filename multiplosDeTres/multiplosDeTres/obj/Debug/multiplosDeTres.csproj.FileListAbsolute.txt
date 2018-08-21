@@ -1,0 +1,10 @@
+C:\Users\V013\source\repos\multiplosDeTres\multiplosDeTres\bin\Debug\multiplosDeTres.exe.config
+C:\Users\V013\source\repos\multiplosDeTres\multiplosDeTres\bin\Debug\multiplosDeTres.exe
+C:\Users\V013\source\repos\multiplosDeTres\multiplosDeTres\bin\Debug\multiplosDeTres.pdb
+C:\Users\V013\source\repos\multiplosDeTres\multiplosDeTres\obj\Debug\multiplosDeTres.csprojAssemblyReference.cache
+C:\Users\V013\source\repos\multiplosDeTres\multiplosDeTres\obj\Debug\multiplosDeTres.Form1.resources
+C:\Users\V013\source\repos\multiplosDeTres\multiplosDeTres\obj\Debug\multiplosDeTres.Properties.Resources.resources
+C:\Users\V013\source\repos\multiplosDeTres\multiplosDeTres\obj\Debug\multiplosDeTres.csproj.GenerateResource.cache
+C:\Users\V013\source\repos\multiplosDeTres\multiplosDeTres\obj\Debug\multiplosDeTres.csproj.CoreCompileInputs.cache
+C:\Users\V013\source\repos\multiplosDeTres\multiplosDeTres\obj\Debug\multiplosDeTres.exe
+C:\Users\V013\source\repos\multiplosDeTres\multiplosDeTres\obj\Debug\multiplosDeTres.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desafioFebonacci", "desafioFebonacci\desafioFebonacci.csproj", "{D484DB5D-76AA-4172-AA94-4AA27D4184DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D484DB5D-76AA-4172-AA94-4AA27D4184DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D484DB5D-76AA-4172-AA94-4AA27D4184DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D484DB5D-76AA-4172-AA94-4AA27D4184DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D484DB5D-76AA-4172-AA94-4AA27D4184DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1B99C48-BBBB-438F-8B84-0FEBF8E97D5B}
+	EndGlobalSection
+EndGlobal

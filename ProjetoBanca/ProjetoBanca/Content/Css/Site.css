@@ -1,0 +1,27 @@
+﻿
+
+.img-login-person {
+    padding: 10px;
+    position: fixed;
+    left: 43%;
+    bottom: 65%;
+    border: 5px solid gray;
+}
+
+article footer {
+    color: #FFF;
+    background-color: black;
+}
+
+footer {
+    font-size: 20px;
+    background-color: black;
+    text-align: center;
+    color: #FFF;
+    padding: 3px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border: 3px solid gray;
+}

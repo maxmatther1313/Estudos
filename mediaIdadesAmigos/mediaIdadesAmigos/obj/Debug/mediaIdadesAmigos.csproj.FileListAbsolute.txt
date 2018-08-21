@@ -1,0 +1,10 @@
+C:\Users\V013\source\repos\mediaIdadesAmigos\mediaIdadesAmigos\bin\Debug\mediaIdadesAmigos.exe.config
+C:\Users\V013\source\repos\mediaIdadesAmigos\mediaIdadesAmigos\bin\Debug\mediaIdadesAmigos.exe
+C:\Users\V013\source\repos\mediaIdadesAmigos\mediaIdadesAmigos\bin\Debug\mediaIdadesAmigos.pdb
+C:\Users\V013\source\repos\mediaIdadesAmigos\mediaIdadesAmigos\obj\Debug\mediaIdadesAmigos.Form1.resources
+C:\Users\V013\source\repos\mediaIdadesAmigos\mediaIdadesAmigos\obj\Debug\mediaIdadesAmigos.Properties.Resources.resources
+C:\Users\V013\source\repos\mediaIdadesAmigos\mediaIdadesAmigos\obj\Debug\mediaIdadesAmigos.csproj.GenerateResource.cache
+C:\Users\V013\source\repos\mediaIdadesAmigos\mediaIdadesAmigos\obj\Debug\mediaIdadesAmigos.csproj.CoreCompileInputs.cache
+C:\Users\V013\source\repos\mediaIdadesAmigos\mediaIdadesAmigos\obj\Debug\mediaIdadesAmigos.exe
+C:\Users\V013\source\repos\mediaIdadesAmigos\mediaIdadesAmigos\obj\Debug\mediaIdadesAmigos.pdb
+C:\Users\V013\source\repos\mediaIdadesAmigos\mediaIdadesAmigos\obj\Debug\mediaIdadesAmigos.csprojAssemblyReference.cache

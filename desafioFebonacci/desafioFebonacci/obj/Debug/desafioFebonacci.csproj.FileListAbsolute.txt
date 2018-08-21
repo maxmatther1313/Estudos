@@ -1,0 +1,10 @@
+c:\users\v013\source\repos\desafioFebonacci\desafioFebonacci\bin\Debug\desafioFebonacci.exe.config
+c:\users\v013\source\repos\desafioFebonacci\desafioFebonacci\bin\Debug\desafioFebonacci.exe
+c:\users\v013\source\repos\desafioFebonacci\desafioFebonacci\bin\Debug\desafioFebonacci.pdb
+c:\users\v013\source\repos\desafioFebonacci\desafioFebonacci\obj\Debug\desafioFebonacci.csprojAssemblyReference.cache
+c:\users\v013\source\repos\desafioFebonacci\desafioFebonacci\obj\Debug\desafioFebonacci.Form1.resources
+c:\users\v013\source\repos\desafioFebonacci\desafioFebonacci\obj\Debug\desafioFebonacci.Properties.Resources.resources
+c:\users\v013\source\repos\desafioFebonacci\desafioFebonacci\obj\Debug\desafioFebonacci.csproj.GenerateResource.cache
+c:\users\v013\source\repos\desafioFebonacci\desafioFebonacci\obj\Debug\desafioFebonacci.csproj.CoreCompileInputs.cache
+c:\users\v013\source\repos\desafioFebonacci\desafioFebonacci\obj\Debug\desafioFebonacci.exe
+c:\users\v013\source\repos\desafioFebonacci\desafioFebonacci\obj\Debug\desafioFebonacci.pdb
