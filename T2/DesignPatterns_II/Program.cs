@@ -1,10 +1,12 @@
 using DesignPatterns_II.Cap_II;
 using DesignPatterns_II.Cap_III;
+using DesignPatterns_II.Cap_IV;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,18 +16,43 @@ namespace DesignPatterns_II
     {
         static void Main(string[] args)
         {
-            Historico historico = new Historico();
+            // Aula_IV Interpreter:
+            //
+            // Interpreter => ((1 + 100) + 10) + (20 - 10)
+            //IExpressao esquerda = new Soma(new Soma(new Numero(1), new Numero(100)), new Numero(10));
 
-            Contrato c = new Contrato(DateTime.Now, "victor", TipoContrato.Novo);
-            historico.Adiciona(c.SalvaEstado());
+            //IExpressao direita = new Subtracao(new Numero(20), new Numero(10));
 
-            c.Avanca();
-            historico.Adiciona(c.SalvaEstado());
+            //IExpressao soma = new Soma(esquerda, direita);
 
-            c.Avanca();
-            historico.Adiciona(c.SalvaEstado());
+            //Console.WriteLine(soma.Avalia());
 
-            Console.WriteLine(historico.Pega(0).Contrato.Tipo);
+            Expression soma = Expression.Add(Expression.Constant(10), Expression.Constant(100));
+            Func<int> funcao = Expression.Lambda<Func<int>>(soma).Compile();
+            Console.WriteLine(funcao());
+
+
+
+
+
+
+
+
+
+            // Aula_III:
+            //
+            //Historico historico = new Historico();
+
+            //Contrato c = new Contrato(DateTime.Now, "victor", TipoContrato.Novo);
+            //historico.Adiciona(c.SalvaEstado());
+
+            //c.Avanca();
+            //historico.Adiciona(c.SalvaEstado());
+
+            //c.Avanca();
+            //historico.Adiciona(c.SalvaEstado());
+
+            //Console.WriteLine(historico.Pega(0).Contrato.Tipo);
 
 
 
