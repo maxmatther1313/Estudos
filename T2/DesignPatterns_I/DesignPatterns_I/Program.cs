@@ -1,3 +1,4 @@
+using ConsoleApp1;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +18,15 @@ namespace DesignPatterns_1
                    .ComItem(new ItemDaNota("item 2", 200.0))
                    .NaDataAtual()
                    .ComObservacoes("uma obs qualquer");
+
+
+            criador.AdicionaAcao(new Multiplicador(2));
+            criador.AdicionaAcao(new Multiplicador(3));
+            criador.AdicionaAcao(new Multiplicador(5.5));
+
+            //criador.AdicionaAcao(new EnviadorDeEmail());
+            //criador.AdicionaAcao(new NotaFiscalDAO());
+            //criador.AdicionaAcao(new EnviadorDeSms());
 
             NotaFiscal nf = criador.Constroi();
 

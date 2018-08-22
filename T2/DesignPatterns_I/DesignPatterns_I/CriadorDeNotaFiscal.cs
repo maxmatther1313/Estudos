@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp1;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,9 +18,44 @@ namespace DesignPatterns_1
         private double impostos;
         private IList<ItemDaNota> todosItens = new List<ItemDaNota>();
 
+        private IList<AcaoAposGerarNotaFiscal> todasAcoesASeremExecutadas = new List<AcaoAposGerarNotaFiscal>();
+
+        //private IList<AcaoAposGerarNotaFiscal> todasAcoesASeremExecutadas;
+
+        //public CriadorDeNotaFiscal(IList<AcaoAposGerarNotaFiscal> lista)
+        //{
+        //    this.todasAcoesASeremExecutadas = lista;
+        //}
+
         public NotaFiscal Constroi()
         {
-            return new NotaFiscal(RazaoSocial, Cnpj, Data, valorTotal, impostos, todosItens, Observacoes);
+            NotaFiscal nf = new NotaFiscal(RazaoSocial, Cnpj, Data, valorTotal, impostos, todosItens, Observacoes);
+            foreach(AcaoAposGerarNotaFiscal acao in todasAcoesASeremExecutadas)
+            {
+                acao.Executa(nf);
+            }
+
+            return nf;
+        }
+
+        public void AdicionaAcao(AcaoAposGerarNotaFiscal novaAcao)
+        {
+            this.todasAcoesASeremExecutadas.Add(novaAcao);
+        }
+
+        private void enviaPorEmail(NotaFiscal nf)
+        {
+            Console.WriteLine("Simulando envio de email");
+        }
+
+        private void salvaNoBanco(NotaFiscal nf)
+        {
+            Console.WriteLine("Simulando salvamento no Banco de Dados");
+        }
+
+        private void enviaPorSms(NotaFiscal nf)
+        {
+            Console.WriteLine("Simulando envio de Sms");
         }
 
         public CriadorDeNotaFiscal ParaEmpresa(String razaoSocial)
@@ -40,11 +76,11 @@ namespace DesignPatterns_1
             return this;
         }
 
-        //public CriadorDeNotaFiscal NaDataAtual()
-        //{
-        //    this.Data = DateTime.Now;
-        //    return this;
-        //}
+        public CriadorDeNotaFiscal NaDataAtual()
+        {
+            this.Data = DateTime.Now;
+            return this;
+        }
 
         public CriadorDeNotaFiscal ComCnpj(String cnpj)
         {
