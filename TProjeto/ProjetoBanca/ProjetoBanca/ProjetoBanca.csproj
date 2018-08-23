@@ -176,8 +176,8 @@
     <Content Include="Content\Css\login.css" />
     <Content Include="Content\Css\reset.css" />
     <Content Include="Content\Css\Site.css" />
-    <Content Include="Content\Img\img-pagina-de-paises.png" />
     <Content Include="Content\Img\img_pagina_de_login.png" />
+    <Content Include="Content\Img\mapa_nomeado.jpg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />

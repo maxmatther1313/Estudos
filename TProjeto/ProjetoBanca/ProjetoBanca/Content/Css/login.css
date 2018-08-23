@@ -6,6 +6,26 @@
     margin-right: 25%;
 }
 
+.titulo-pagina-inicial {    
+    border-top: 15px solid gray;
+    border-bottom: 15px solid gray;
+    border-left: 350px solid gray;
+    border-right: 350px solid gray;    
+    padding: 10px;
+    width: 600px;
+    margin: auto;    
+    background-color: black;
+    opacity: 0.50;
+}
+
+.titulo-pagina-inicial h1 {
+    font-size: 50px;        
+    margin-left: 20%;            
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #FFF;
+}
+
 body {
     font-family: "Crimson Text","Times New Roman", serif;
     background-image: url("../Img/img_pagina_de_login.png");
@@ -13,7 +33,12 @@ body {
 
 .paises {
     font-family: "Crimson Text","Times New Roman", serif;
-    background-image: url("../Img/img-pagina-de-paises.png");
+    background-image: url("../Img/mapa_nomeado.jpg");
+}
+
+.home {
+    font-family: "Crimson Text","Times New Roman", serif;
+    background-image: url("../Img/img_pagina_de_login.png");
 }
 .login-espacamento{    
     margin: 10px;
@@ -73,3 +98,62 @@ body {
     background-color: black;
     opacity: 0.50;
 }
+
+.link-pagina-paises {
+    border-top: 15px solid gray;
+    border-bottom: 15px solid gray;
+    border-left: 1200px solid gray;
+    border-right: 50px solid gray;
+    padding: 10px;    
+    position: absolute;
+    right: 0;
+    top: 100px;
+    margin: auto;
+    background-color: black;
+    opacity: 0.50;
+}
+
+.link-paises{
+    color: #FFF;
+}
+
+.menu-de-navegacao {
+    border-top: 15px solid #363636;
+    border-bottom: 15px solid #363636;
+    border-left: 1200px solid #363636;
+    border-right: 50px solid #363636;
+    width: 10%;
+    padding: 10px;
+    padding-left: 30px;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    margin: auto;
+    background-color: black;
+    opacity: 0.50;
+}
+
+.menu-pagina-inicial{
+    color: #FFF;
+    font-size: 20px;
+}
+
+.titulo-pagina-paises {
+    border-top: 15px solid gray;
+    border-bottom: 15px solid gray;
+    border-left: 380px solid gray;
+    border-right: 380px solid gray;
+    padding: 10px;    
+    width: 500px;
+    margin: auto;
+    background-color: black;
+    opacity: 0.50;
+}
+
+    .titulo-pagina-paises h1 {
+        font-size: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        color: #FFF;
+    }
