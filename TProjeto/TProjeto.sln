@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoBanca", "..\ProjetoBanca\ProjetoBanca\ProjetoBanca.csproj", "{B42AB395-D57F-48EB-82CA-DEC18183306E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoBanca", "ProjetoBanca\ProjetoBanca\ProjetoBanca.csproj", "{B42AB395-D57F-48EB-82CA-DEC18183306E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

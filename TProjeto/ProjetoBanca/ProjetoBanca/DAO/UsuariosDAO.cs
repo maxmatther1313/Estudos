@@ -41,6 +41,14 @@ namespace ProjetoBanca.DAO
         //    }
         //}
 
+            public Usuario BuscaPorNome(string nome)
+        {
+            using (var contexto = new EstoqueContext())
+            {
+                return contexto.Usuarios.FirstOrDefault(u => u.Nome == nome);
+            }
+        }
+
         public Usuario Busca(string login, string senha)
         {
             using (var contexto = new EstoqueContext())

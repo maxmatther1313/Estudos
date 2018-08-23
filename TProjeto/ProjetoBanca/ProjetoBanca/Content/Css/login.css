@@ -11,6 +11,10 @@ body {
     background-image: url("../Img/img_pagina_de_login.png");
 }
 
+.paises {
+    font-family: "Crimson Text","Times New Roman", serif;
+    background-image: url("../Img/img-pagina-de-paises.png");
+}
 .login-espacamento{    
     margin: 10px;
     font-size: 40px;    
