@@ -56,8 +56,11 @@
     <Compile Include="Cap_II\Re.cs" />
     <Compile Include="Cap_II\Si.cs" />
     <Compile Include="Cap_II\Sol.cs" />
+    <Compile Include="Cap_IV\Divisao.cs" />
     <Compile Include="Cap_IV\IExpressao.cs" />
+    <Compile Include="Cap_IV\Multiplicacao.cs" />
     <Compile Include="Cap_IV\Numero.cs" />
+    <Compile Include="Cap_IV\RaizQuadrada.cs" />
     <Compile Include="Cap_IV\Soma.cs" />
     <Compile Include="Cap_IV\Subtracao.cs" />
     <Compile Include="Cap_I\ConnectionFactory.cs" />
