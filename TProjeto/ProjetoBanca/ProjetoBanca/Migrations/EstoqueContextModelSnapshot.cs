@@ -8,7 +8,7 @@ using ProjetoBanca;
 
 namespace ProjetoBanca.Migrations
 {
-    [DbContext(typeof(EstoqueContext))]
+    [DbContext(typeof(ImplasticContext))]
     partial class EstoqueContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

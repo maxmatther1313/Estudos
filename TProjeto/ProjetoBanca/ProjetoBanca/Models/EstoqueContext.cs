@@ -8,7 +8,7 @@ using System.Web;
 
 namespace ProjetoBanca
 {
-    public class EstoqueContext : DbContext
+    public class ImplasticContext : DbContext
     {
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Contato> Contatos { get; set; }
@@ -19,7 +19,7 @@ namespace ProjetoBanca
         public DbSet<UnidadeMedida> UnidadesDeMedida { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Venda> Vendas { get; set; }
-        
+        public DbSet<Paises> Paises { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -10,7 +10,7 @@ namespace ProjetoBanca.DAO
     {
        public void Adiciona(Usuario usuario)
         {
-            using (var context = new EstoqueContext())
+            using (var context = new ImplasticContext())
             {
                 context.Usuarios.Add(usuario);
                 context.SaveChanges();
@@ -19,7 +19,7 @@ namespace ProjetoBanca.DAO
 
         public IList<Usuario> Lista()
         {
-            using (var contexto = new EstoqueContext())
+            using (var contexto = new ImplasticContext())
             {
                 return contexto.Usuarios.ToList();
             }
@@ -27,7 +27,7 @@ namespace ProjetoBanca.DAO
 
         public Usuario BuscarPorId(int id)
         {
-            using (var contexto = new EstoqueContext())
+            using (var contexto = new ImplasticContext())
             {
                 return contexto.Usuarios.Find(id);
             }
@@ -43,7 +43,7 @@ namespace ProjetoBanca.DAO
 
             public Usuario BuscaPorNome(string nome)
         {
-            using (var contexto = new EstoqueContext())
+            using (var contexto = new ImplasticContext())
             {
                 return contexto.Usuarios.FirstOrDefault(u => u.Nome == nome);
             }
@@ -51,7 +51,7 @@ namespace ProjetoBanca.DAO
 
         public Usuario Busca(string login, string senha)
         {
-            using (var contexto = new EstoqueContext())
+            using (var contexto = new ImplasticContext())
             {
                 return contexto.Usuarios.FirstOrDefault(u => u.Nome == login && u.Senha == senha);
             }

@@ -9,7 +9,7 @@ using ProjetoBanca;
 
 namespace ProjetoBanca.Migrations
 {
-    [DbContext(typeof(EstoqueContext))]
+    [DbContext(typeof(ImplasticContext))]
     [Migration("20180820195422_Inicial")]
     partial class Inicial
     {
