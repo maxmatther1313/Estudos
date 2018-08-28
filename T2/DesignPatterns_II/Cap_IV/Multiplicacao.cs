@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignPatterns_II.Cap_V;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,10 @@ namespace DesignPatterns_II
             int valorEsquerda = esquerda.Avalia();
             int valorDireita = direita.Avalia();
             return valorEsquerda * valorDireita;
+        }
+        public void Aceita(IVisitor impressora)
+        {
+            throw new Exception("BLa BLa BLa");
         }
     }
 }

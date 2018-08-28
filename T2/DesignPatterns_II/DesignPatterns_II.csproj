@@ -64,6 +64,15 @@
     <Compile Include="Cap_IV\Soma.cs" />
     <Compile Include="Cap_IV\Subtracao.cs" />
     <Compile Include="Cap_I\ConnectionFactory.cs" />
+    <Compile Include="Cap_VI\EnviaPorEmail.cs" />
+    <Compile Include="Cap_VI\EnviaPorSMS.cs" />
+    <Compile Include="Cap_VI\IEnviador.cs" />
+    <Compile Include="Cap_VI\IMensagem.cs" />
+    <Compile Include="Cap_VI\MensagemAdministrador.cs" />
+    <Compile Include="Cap_VI\MensagemDoCliente.cs" />
+    <Compile Include="Cap_V\Impressora.cs" />
+    <Compile Include="Cap_V\PreFixaVisitor.cs" />
+    <Compile Include="Cap_V\Visitor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

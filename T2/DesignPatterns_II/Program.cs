@@ -9,6 +9,8 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using DesignPatterns_II.Cap_V;
+using DesignPatterns_II.Cap_VI;
 
 namespace DesignPatterns_II
 {
@@ -16,6 +18,42 @@ namespace DesignPatterns_II
     {
         static void Main(string[] args)
         {
+            // Aula_VI :
+
+            IMensagem mensagem = new MensagemDoCliente("victor");
+            IEnviador enviador = new EnviaPorEmail();
+            mensagem.Enviador = enviador;
+            mensagem.Envia();
+
+
+
+
+
+
+
+            // Aula_V :
+
+            // ((1 + 10)) + (20 - 10))
+            // + 1 100
+            //IExpressao esquerda = new Soma(new Numero(1), new Numero(10));
+            //IExpressao direita = new Subtracao(new Numero(20), new Numero(10));
+            //IExpressao soma = new Soma(esquerda, direita);
+
+            //Console.WriteLine(soma.Avalia());
+
+            //ImpressoraVisitor impressora = new ImpressoraVisitor();
+            //soma.Aceita(impressora);
+
+            // Teste:
+            // PreFixaVisitor prefixo = new PreFixaVisitor();
+            // soma.Aceita(prefixo);
+
+
+
+
+
+
+
             // Aula_IV Interpreter:
             //
             // Interpreter => ((1 + 100) + 10) + (20 - 10)
@@ -27,9 +65,9 @@ namespace DesignPatterns_II
 
             //Console.WriteLine(soma.Avalia());
 
-            Expression soma = Expression.Add(Expression.Constant(10), Expression.Constant(100));
-            Func<int> funcao = Expression.Lambda<Func<int>>(soma).Compile();
-            Console.WriteLine(funcao());
+            //Expression soma = Expression.Add(Expression.Constant(10), Expression.Constant(100));
+            //Func<int> funcao = Expression.Lambda<Func<int>>(soma).Compile();
+            //Console.WriteLine(funcao());
 
 
 
