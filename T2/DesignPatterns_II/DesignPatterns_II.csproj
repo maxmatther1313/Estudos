@@ -64,6 +64,12 @@
     <Compile Include="Cap_IV\Soma.cs" />
     <Compile Include="Cap_IV\Subtracao.cs" />
     <Compile Include="Cap_I\ConnectionFactory.cs" />
+    <Compile Include="Cap_VII\FilaDeTraBALHO.cs" />
+    <Compile Include="Cap_VII\FinalizaPedido.cs" />
+    <Compile Include="Cap_VII\IComando.cs" />
+    <Compile Include="Cap_VII\PagaPedido.cs" />
+    <Compile Include="Cap_VII\Pedido.cs" />
+    <Compile Include="Cap_VII\Status.cs" />
     <Compile Include="Cap_VI\EnviaPorEmail.cs" />
     <Compile Include="Cap_VI\EnviaPorSMS.cs" />
     <Compile Include="Cap_VI\IEnviador.cs" />

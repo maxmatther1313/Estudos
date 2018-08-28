@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DesignPatterns_II.Cap_V;
 using DesignPatterns_II.Cap_VI;
+using DesignPatterns_II.Cap_VII;
 
 namespace DesignPatterns_II
 {
@@ -18,12 +19,30 @@ namespace DesignPatterns_II
     {
         static void Main(string[] args)
         {
+            // Aula_VII :
+
+            FilaDeTrabalho fila = new FilaDeTrabalho();
+            Pedido pedido1 = new Pedido("Mauricio", 100.0);
+            Pedido pedido2 = new Pedido("Marcelo", 200.0);
+
+            fila.Adiciona(new PagaPedido(pedido1));
+            fila.Adiciona(new PagaPedido(pedido2));
+
+            fila.Adiciona(new FinalizaPedido(pedido1));
+
+            fila.Processa();
+
+
+
+
+
+
             // Aula_VI :
 
-            IMensagem mensagem = new MensagemDoCliente("victor");
-            IEnviador enviador = new EnviaPorEmail();
-            mensagem.Enviador = enviador;
-            mensagem.Envia();
+            //IMensagem mensagem = new MensagemDoCliente("victor");
+            //IEnviador enviador = new EnviaPorEmail();
+            //mensagem.Enviador = enviador;
+            //mensagem.Envia();
 
 
 
