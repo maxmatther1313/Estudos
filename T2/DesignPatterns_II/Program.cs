@@ -12,6 +12,10 @@ using System.Threading.Tasks;
 using DesignPatterns_II.Cap_V;
 using DesignPatterns_II.Cap_VI;
 using DesignPatterns_II.Cap_VII;
+using DesignPatterns_II.Cap_VIII;
+using System.Xml.Serialization;
+using System.IO;
+using DesignPatterns_II._9_Cap_IX;
 
 namespace DesignPatterns_II
 {
@@ -19,18 +23,56 @@ namespace DesignPatterns_II
     {
         static void Main(string[] args)
         {
+
+
+            // Aula_IX "Façade" :
+
+            //String cpf = "1234";
+
+            //EmpresaFacade facade = new EmpresaFacadeSingleton().Instancia;
+            //Cliente cliente = facade.BuscaCliente(cpf);
+
+            //facade.CriaFatura(cliente, 5000);
+            //facade.GerarCobranca(tipo, Boleto, fatura);
+
+
+
+
+
+
+
+
+            // Aula_VIII :
+
+            //Cliente cliente = new Cliente();
+
+            //cliente.Nome = "victor";
+            //cliente.Endereco = "Rua dos Alfeneiros";
+            //cliente.DataDeNascimento = DateTime.Now;
+
+            //String xml = new GeradorDeXml().GeraXml(cliente);
+
+            //Console.WriteLine(xml);
+
+
+
+
+
+
+
+
             // Aula_VII :
 
-            FilaDeTrabalho fila = new FilaDeTrabalho();
-            Pedido pedido1 = new Pedido("Mauricio", 100.0);
-            Pedido pedido2 = new Pedido("Marcelo", 200.0);
+            //FilaDeTrabalho fila = new FilaDeTrabalho();
+            //Pedido pedido1 = new Pedido("Mauricio", 100.0);
+            //Pedido pedido2 = new Pedido("Marcelo", 200.0);
 
-            fila.Adiciona(new PagaPedido(pedido1));
-            fila.Adiciona(new PagaPedido(pedido2));
+            //fila.Adiciona(new PagaPedido(pedido1));
+            //fila.Adiciona(new PagaPedido(pedido2));
 
-            fila.Adiciona(new FinalizaPedido(pedido1));
+            //fila.Adiciona(new FinalizaPedido(pedido1));
 
-            fila.Processa();
+            //fila.Processa();
 
 
 
@@ -162,8 +204,7 @@ namespace DesignPatterns_II
             //
             //IDbConnection conexao = new ConnectionFactory().GetConnection();
             //IDbCommand comando = conexao.CreateCommand();
-            //comando.CommandText = "select * from tabela";
-
+            //comando.CommandText = "select * from tabela"; 
         }
     }
 }
