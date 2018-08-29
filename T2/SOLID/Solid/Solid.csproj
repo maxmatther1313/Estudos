@@ -42,15 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cap_1\CalculadoraDeSalario.cs" />
-    <Compile Include="Cap_1\Cargo.cs" />
-    <Compile Include="Cap_1\Dba.cs" />
-    <Compile Include="Cap_1\Desenvolvedor.cs" />
-    <Compile Include="Cap_1\DezOuVintePorcento.cs" />
-    <Compile Include="Cap_1\Funcionario.cs" />
-    <Compile Include="Cap_1\QuinzeOuVinteCincoPorcento.cs" />
-    <Compile Include="Cap_1\RegraDeCalculo.cs" />
-    <Compile Include="Cap_1\Tester.cs" />
+    <Compile Include="Cap_1 - Single Responsibility Principle\CalculadoraDeSalario.cs" />
+    <Compile Include="Cap_1 - Single Responsibility Principle\Cargo.cs" />
+    <Compile Include="Cap_1 - Single Responsibility Principle\Dba.cs" />
+    <Compile Include="Cap_1 - Single Responsibility Principle\Desenvolvedor.cs" />
+    <Compile Include="Cap_1 - Single Responsibility Principle\DezOuVintePorcento.cs" />
+    <Compile Include="Cap_1 - Single Responsibility Principle\Funcionario.cs" />
+    <Compile Include="Cap_1 - Single Responsibility Principle\QuinzeOuVinteCincoPorcento.cs" />
+    <Compile Include="Cap_1 - Single Responsibility Principle\RegraDeCalculo.cs" />
+    <Compile Include="Cap_1 - Single Responsibility Principle\Tester.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
