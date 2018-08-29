@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns_I", "DesignP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns_II", "DesignPatterns_II\DesignPatterns_II.csproj", "{7220C773-3BAA-48DD-8E11-309CCA5CC9C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid", "SOLID\Solid\Solid.csproj", "{724DDF0E-2241-49B6-BFBE-0E701E714EB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7220C773-3BAA-48DD-8E11-309CCA5CC9C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7220C773-3BAA-48DD-8E11-309CCA5CC9C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7220C773-3BAA-48DD-8E11-309CCA5CC9C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724DDF0E-2241-49B6-BFBE-0E701E714EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724DDF0E-2241-49B6-BFBE-0E701E714EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724DDF0E-2241-49B6-BFBE-0E701E714EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724DDF0E-2241-49B6-BFBE-0E701E714EB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
