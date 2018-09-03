@@ -51,11 +51,26 @@
     <Compile Include="Cap_1 - Single Responsibility Principle\QuinzeOuVinteCincoPorcento.cs" />
     <Compile Include="Cap_1 - Single Responsibility Principle\RegraDeCalculo.cs" />
     <Compile Include="Cap_1 - Single Responsibility Principle\Tester.cs" />
+    <Compile Include="Cap_2 - Acoplamento e a estabilidade\AcaoAposGerarNotaFiscal.cs" />
+    <Compile Include="Cap_2 - Acoplamento e a estabilidade\EnviadorDeEmail.cs" />
+    <Compile Include="Cap_2 - Acoplamento e a estabilidade\Fatura.cs" />
+    <Compile Include="Cap_2 - Acoplamento e a estabilidade\GeradorDeNotaFiscal.cs" />
+    <Compile Include="Cap_2 - Acoplamento e a estabilidade\NotaFiscal.cs" />
+    <Compile Include="Cap_2 - Acoplamento e a estabilidade\NotaFiscalDAO.cs" />
+    <Compile Include="Cap_2 - Acoplamento e a estabilidade\SAP.cs" />
+    <Compile Include="Cap_3 - Classes abertas, Open Closed e Dependency Inversion Principles\CalculadoraDePrecos.cs" />
+    <Compile Include="Cap_3 - Classes abertas, Open Closed e Dependency Inversion Principles\Compra.cs" />
+    <Compile Include="Cap_3 - Classes abertas, Open Closed e Dependency Inversion Principles\Frete.cs" />
+    <Compile Include="Cap_3 - Classes abertas, Open Closed e Dependency Inversion Principles\IServicoDeEntrega.cs" />
+    <Compile Include="Cap_3 - Classes abertas, Open Closed e Dependency Inversion Principles\ITabelaDePreco.cs" />
+    <Compile Include="Cap_3 - Classes abertas, Open Closed e Dependency Inversion Principles\TabelaDePrecoPadrao.cs" />
+    <Compile Include="Cap_3 - Classes abertas, Open Closed e Dependency Inversion Principles\Transportadora.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
