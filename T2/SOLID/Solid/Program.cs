@@ -13,15 +13,29 @@ namespace Solid
     {
         static void Main(string[] args)
         {
+            // Aula_4 :
+            //
+
+
+
+
+
+
+
+
+
+
+
+
             // Aula_3 : 
             //
-            Compra compra = new Compra();
-            CalculadoraDePrecos calculadora = new CalculadoraDePrecos(new TabelaDePrecoPadrao(), new Transportadora());
+            // Compra compra = new Compra();
+            // CalculadoraDePrecos calculadora = new CalculadoraDePrecos(new TabelaDePrecoPadrao(), new Transportadora());
 
-            double resultado = calculadora.Calcula(compra);
+            // double resultado = calculadora.Calcula(compra);
 
-            Console.WriteLine("O preço da compra é : " + resultado);
-            Console.ReadKey();
+            // Console.WriteLine("O preço da compra é : " + resultado);
+            // Console.ReadKey();
 
 
 

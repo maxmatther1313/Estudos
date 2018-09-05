@@ -65,6 +65,11 @@
     <Compile Include="Cap_3 - Classes abertas, Open Closed e Dependency Inversion Principles\ITabelaDePreco.cs" />
     <Compile Include="Cap_3 - Classes abertas, Open Closed e Dependency Inversion Principles\TabelaDePrecoPadrao.cs" />
     <Compile Include="Cap_3 - Classes abertas, Open Closed e Dependency Inversion Principles\Transportadora.cs" />
+    <Compile Include="Cap_4 - Entendendo o Encapsulamento\Boleto.cs" />
+    <Compile Include="Cap_4 - Entendendo o Encapsulamento\Fatura.cs" />
+    <Compile Include="Cap_4 - Entendendo o Encapsulamento\MeioDePagamento.cs" />
+    <Compile Include="Cap_4 - Entendendo o Encapsulamento\Pagamento.cs" />
+    <Compile Include="Cap_4 - Entendendo o Encapsulamento\ProcessadorDeBoletos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
