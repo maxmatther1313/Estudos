@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns_II", "Design
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid", "SOLID\Solid\Solid.csproj", "{724DDF0E-2241-49B6-BFBE-0E701E714EB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caelum.Leilao", "Caelum.Leilao\Caelum.Leilao\Caelum.Leilao.csproj", "{698BC183-31DE-4100-BB66-BE9DB06F292F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{724DDF0E-2241-49B6-BFBE-0E701E714EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{724DDF0E-2241-49B6-BFBE-0E701E714EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{724DDF0E-2241-49B6-BFBE-0E701E714EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{698BC183-31DE-4100-BB66-BE9DB06F292F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698BC183-31DE-4100-BB66-BE9DB06F292F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698BC183-31DE-4100-BB66-BE9DB06F292F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698BC183-31DE-4100-BB66-BE9DB06F292F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
