@@ -10,7 +10,9 @@ namespace Caelum.Leilao
     {
         private double maiorDeTodos = Double.MinValue;
         private double menorDeTodos = Double.MaxValue;
-        private double mediaDeTodos = 0;    
+        //private double mediaDeTodos = 0;
+        private List<Lance> maiores;
+
         public void Avalia(Leilao leilao)
         {
             double total = 0;
@@ -26,7 +28,20 @@ namespace Caelum.Leilao
                 }
                 total += lance.Valor;
             }
-            mediaDeTodos = total / leilao.Lances.Count;
+            //mediaDeTodos = total / leilao.Lances.Count;
+
+            pegaOsMaioresNo(leilao);
+        }
+
+        private void pegaOsMaioresNo(Leilao leilao)
+        {
+            maiores = new List<Lance>(leilao.Lances.OrderByDescending(x => x.Valor));
+            maiores = maiores.GetRange(0, maiores.Count > 3 ? 3 : maiores.Count);
+        }   
+
+        public List<Lance> TresMaiores
+        {
+            get { return this.maiores; }
         }
 
         public double MaiorLance
@@ -37,9 +52,9 @@ namespace Caelum.Leilao
         {
             get { return menorDeTodos; }
         }
-        public double MediaDeTodos
-        {
-            get { return mediaDeTodos; }
-        }
+        //public double MediaDeTodos
+        //{
+        //    get { return mediaDeTodos; }
+        //}
     }
 }
