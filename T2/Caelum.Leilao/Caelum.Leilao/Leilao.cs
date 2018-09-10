@@ -4,7 +4,6 @@ namespace Caelum.Leilao
 
     public class Leilao
     {
-
         public string Descricao { get; set; }
         public IList<Lance> Lances { get; set; }
 
