@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="Avaliador.cs" />
     <Compile Include="CriadorDeLeilao.cs" />
+    <Compile Include="LanceTest.cs" />
     <Compile Include="LeilaoTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
