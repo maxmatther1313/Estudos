@@ -17,7 +17,6 @@ namespace Caelum.Leilao
         {
             new Lance(new Usuario("John Doe"), 0);
         }
-        [Test]
-        [Ex]
+        [Test]        
     }
 }

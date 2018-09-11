@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid", "SOLID\Solid\Solid.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caelum.Leilao", "Caelum.Leilao\Caelum.Leilao\Caelum.Leilao.csproj", "{698BC183-31DE-4100-BB66-BE9DB06F292F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BytesBank.Portal", "BytesBank.Portal\BytesBank.Portal.csproj", "{18BAE612-1456-4739-AC74-20696C50B8CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBank.Service", "ByteBank.Service\ByteBank.Service.csproj", "{64150092-312A-4769-94F2-496E2BF8DEED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{698BC183-31DE-4100-BB66-BE9DB06F292F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{698BC183-31DE-4100-BB66-BE9DB06F292F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{698BC183-31DE-4100-BB66-BE9DB06F292F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18BAE612-1456-4739-AC74-20696C50B8CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BAE612-1456-4739-AC74-20696C50B8CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BAE612-1456-4739-AC74-20696C50B8CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BAE612-1456-4739-AC74-20696C50B8CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64150092-312A-4769-94F2-496E2BF8DEED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64150092-312A-4769-94F2-496E2BF8DEED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64150092-312A-4769-94F2-496E2BF8DEED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64150092-312A-4769-94F2-496E2BF8DEED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
