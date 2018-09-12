@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caelum.Leilao", "Caelum.Lei
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BytesBank.Portal", "BytesBank.Portal\BytesBank.Portal.csproj", "{18BAE612-1456-4739-AC74-20696C50B8CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBank.Service", "ByteBank.Service\ByteBank.Service.csproj", "{64150092-312A-4769-94F2-496E2BF8DEED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BytesBank.Service", "ByteBank.Service\BytesBank.Service.csproj", "{64150092-312A-4769-94F2-496E2BF8DEED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

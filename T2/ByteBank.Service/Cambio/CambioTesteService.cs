@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ByteBank.Service.Cambio
+namespace BytesBank.Service.Cambio
 {
     public class CambioTesteService : ICambioService
     {

@@ -44,7 +44,6 @@
   <ItemGroup>
     <Compile Include="Cambio\CambioTesteService.cs" />
     <Compile Include="ICambioService.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

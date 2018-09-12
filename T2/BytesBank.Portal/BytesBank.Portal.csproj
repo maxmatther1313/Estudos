@@ -42,9 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\CambioController.cs" />
     <Compile Include="Infraestrutura\ControllerBase.cs" />
     <Compile Include="Infraestrutura\ManipulandoRequisicaoArquivo.cs" />
     <Compile Include="Infraestrutura\ManipulandoRequisicaoController.cs" />
+    <Compile Include="Infraestrutura\Utilidades.cs" />
     <Compile Include="Infraestrutura\WebApplication.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
@@ -70,8 +72,10 @@
   <ItemGroup>
     <Folder Include="bin\Debug\" />
     <Folder Include="bin\Release\" />
-    <Folder Include="Controller\" />
     <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
